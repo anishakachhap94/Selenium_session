@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="466" started-at="2019-10-23T16:53:22Z" finished-at="2019-10-23T16:53:23Z">
+    <groups>
+      <group name="sanity">
+        <method signature="SanityTest.search()[pri:0, instance:com.sellabs.practice.SanityTest@8bd1b6a]" name="search" class="com.sellabs.practice.SanityTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="466" started-at="2019-10-23T16:53:22Z" finished-at="2019-10-23T16:53:23Z">
+      <class name="com.sellabs.practice.SanityTest">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.sellabs.practice.SanityTest@8bd1b6a]" name="logIn" is-config="true" duration-ms="152" started-at="2019-10-23T22:23:22Z" finished-at="2019-10-23T22:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="search()[pri:0, instance:com.sellabs.practice.SanityTest@8bd1b6a]" name="search" duration-ms="19" started-at="2019-10-23T22:23:23Z" finished-at="2019-10-23T22:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.sellabs.practice.SanityTest@8bd1b6a]" name="logOut" is-config="true" duration-ms="1" started-at="2019-10-23T22:23:23Z" finished-at="2019-10-23T22:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.sellabs.practice.SanityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
